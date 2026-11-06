@@ -1,0 +1,36 @@
+# Credentials and local environment
+.env
+.env.*
+!.env.example
+!.env.template
+
+# Generated MCP configuration contains machine-specific paths
+/.codex/config.toml
+/.codex/config.toml.backup*
+/testit_mcp.config.toml
+
+# Local editor and OS files
+.idea/
+.DS_Store
+
+# Python environment and caches
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Test artifacts
+/ready_artifacts/checklists/*
+/ready_artifacts/requirements/*
+/ready_artifacts/test_cases/*
+/drafts/check_list/*
+/drafts/requirements_analysis/*
+/drafts/test_cases/*
+archive
+/functional_requirements/*
+/cases_for_autorh
